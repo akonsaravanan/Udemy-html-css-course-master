@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Table</title>
+    <style>
+        * {
+            border: 0;
+            margin: 0;
+        }
+
+        body {
+            /*; */
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        table {
+            width: 800px;
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+            font-size: 20px;
+
+        }
+
+        tr,
+        td,
+        th {
+            /* border: 1px solid black; */
+            padding: 10px;
+            text-align: left;
+        }
+
+        table thead {
+            background-color: rgb(243, 143, 118);
+            color: #000;
+
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: rgba(235, 220, 152, 0.856)
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: rgba(70, 228, 136, 0.856)
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Chair</th>
+                <th>The Laid Back</th>
+                <th>The worker bee</th>
+                <th>The chair 4/2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>width</th>
+                <td>80cm</td>
+                <td>60cm</td>
+                <td>220cm</td>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <td>100cm</td>
+                <td>110cm</td>
+                <td>90cm</td>
+            </tr>
+            <tr>
+                <th>Depth</th>
+                <td>70cm</td>
+                <td>65cm</td>
+                <td>80cm</td>
+            </tr>
+            <tr>
+                <th>Weight</th>
+                <td>16kg</td>
+                <td>22kg</td>
+                <td>80kg</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
